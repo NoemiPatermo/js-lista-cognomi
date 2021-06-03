@@ -9,6 +9,15 @@ var listaCognomi = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 listaCognomi.push(cognomeUtente);//ho inserito il mio cognome
 listaCognomi.sort();//ho riordinato l'array col mio cognome
 //console.log(listaCognomi);
+
+//ho stampato la mia lista cognomi ordinata 
+//alfabeticamente, con il mio cognome compreso
 for (var i = 0; i < listaCognomi.length; i++){
-    document.getElementById('result').innerHTML = listaCognomi;
+    document.getElementById('result').innerHTML = listaCognomi + '\n' + ' la posizione umana del mio cognome in ordine alfabetico è  ' +  listaCognomi.indexOf("Patermo");
 }
+
+
+//ho trovato la posizione che il mio cognome ha nell'array, con l'idex of
+//listaCognomi.indexOf("Patermo");
+//document.getElementById("result").innerHTML = listaCognomi.indexOf("Patermo");
+
