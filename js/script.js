@@ -9,6 +9,6 @@ var listaCognomi = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 listaCognomi.push(cognomeUtente);//ho inserito il mio cognome
 listaCognomi.sort();//ho riordinato l'array col mio cognome
 //console.log(listaCognomi);
-for (var i = 1; i < listaCognomi.length; i++){
-    
+for (var i = 0; i < listaCognomi.length; i++){
+    document.getElementById('result').innerHTML = listaCognomi;
 }
