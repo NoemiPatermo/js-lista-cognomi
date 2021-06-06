@@ -10,7 +10,7 @@ var listaCognomi = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 //devo fare in modo che se l'utente inserisce il cognome in minuscolo, questo venga automaticamente messo in maiuscolo
 
 cognomeUtente =  cognomeUtente[0].toUpperCase() + cognomeUtente.slice(1);
-//prendi la stringa cge parte dalla posizione 1 
+//prendi la stringa che parte dalla posizione 1 
 
 listaCognomi.push(cognomeUtente);//ho inserito il mio cognome
 
@@ -21,6 +21,7 @@ listaCognomi.sort();//ho riordinato l'array
 console.log(listaCognomi);
 
 var position = listaCognomi.indexOf(cognomeUtente) +1;
+console.log(position);
 
 /*ho stampato la mia lista cognomi ordinata 
 alfabeticamente
